@@ -453,3 +453,30 @@ input[type="search"]::-webkit-search-cancel-button {
 .tooltip-right .tooltip-text { left: 100%; top: 50%; transform: translate(6px, -50%); }
 .tooltip-bottom .tooltip-text { top: 100%; left: 50%; transform: translate(-50%, 6px); }
 .tooltip-left .tooltip-text { right: 100%; top: 50%; transform: translate(-6px, -50%); }
+
+.grid-container {
+    display: grid;
+    background: rgba(255,255,255,0.6);
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.grid-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text {
+    font-family: system-ui;
+}
+
+.right-align {
+    text-align: right;
+}

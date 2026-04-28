@@ -5,7 +5,6 @@ import Root from './routes/root'
 import Home from './routes/home'
 import About from './routes/about'
 
-// 1. 定义路由配置对象
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
   },
 ])
 
-// 2. 用 RouterProvider 包裹应用，并传入 router 对象
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />

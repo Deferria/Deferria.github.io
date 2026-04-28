@@ -1,6 +1,6 @@
 import { Outlet, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightToBracket, faMailReply, faArchive } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightToBracket, faMailReply, faArchive, faAd } from '@fortawesome/free-solid-svg-icons'
 
 import '../main.css'
 
@@ -49,21 +49,30 @@ export default function Root() {
           </div>
 
           <div className='card'>
-            <h2><FontAwesomeIcon icon={faArchive} /><span> </span>QQ (bot)</h2>
+            <h2><FontAwesomeIcon icon={faArchive} /><span> </span>QQ (小号/bot)</h2>
             <div>3857892183</div>
             <div class="sol">
-              这是之前测试的 QQ 机器人账号, 不经常使用, 不过可以来玩玩<s>当小白鼠</s> 🤖
+              这是之前测试的 QQ 机器人账号, 不经常使用, 不过可以来玩玩<s>当小白鼠也可</s> 🤖
             </div>
           </div>
 
+          <div className='card'>
+            <h2><FontAwesomeIcon icon={faArchive} /><span> </span>微信</h2>
+          </div>
+
+          <div className='card'>
+            <h2><FontAwesomeIcon icon={faAd} /><span> </span>水源社区</h2>
+          </div>
+
           <h3> 其他信息就先不展示了喵! 😼 </h3>
+
           <main>
             <Outlet />
           </main>
         </div>
 
         <footer>
-          <p>Dedicatiaaaaa &copy; 2026 | Author | github.io</p>
+          <p>Copyright &copy; 2026 Dedicatiaaaaa. All rights reserved.</p>
         </footer>
       </div>
     </>
