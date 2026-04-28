@@ -1,9 +1,9 @@
 {
-  "name": "react-app-base",
+  "name": "dddddddd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Deferria.github.io",
+  "homepage": "https://deferria.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
