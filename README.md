@@ -1,4 +1,29 @@
-# React + Vite
+# Tasks
+
+## JSON Schema
+
+```json
+[
+    {
+        "course_name": str,
+        "assignment_group_name": Optional[str],
+        "assignment_name": str,
+        "course_id": Optional[str],
+        "assignment_id": str,
+        "due_at": Optional[str | datetime],
+        "unlock_at": Optional[str | datetime],
+        "lock_at": Optional[str | datetime],
+        "explanation": Optional[str],
+        "from": Optional[str],
+        "to": Optional[str],
+        "url": Optional[str],
+        "zombie": Optional[bool],
+        "complete": Optional[bool] 
+    }
+]
+```
+
+# About Reac and Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

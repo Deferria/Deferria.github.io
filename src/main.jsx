@@ -4,14 +4,18 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Root from './routes/root'
 import Home from './routes/home'
 import About from './routes/about'
+import Task from './routes/task'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />, 
     children: [
-      { index: true, element: <Home /> },      // index: true 代表父路径的默认页面，即路径为 "/"
-      { path: "about", element: <About /> },    // 对应路径为 "/about"
+      { index: true, element: <div></div> }, 
+      { path: "about", element: <About /> }, 
+      { path: "home", element: <Home /> }, 
+      { path: "task", element: <Task /> },
+      { path: "*", element: <div>404 Not Found</div> },
     ],
   },
 ])

@@ -3,7 +3,7 @@ export default function About() {
     <div>
       <h2>About Page</h2>
       <div className="grid-container">
-        <img src="/src/assets/rsing.jpg" alt="Cat" width="400" height="400" />
+        <img src="/rsing.jpg" alt="Meow" width="400" height="400" />
         <div className="text">
           <h4>别再看了喵~ 🐱 人家还没想好要写什么……</h4>
         </div>
