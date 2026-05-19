@@ -126,6 +126,11 @@ h4 {
     color: #2ecc71;
 }
 
+.warning-yellow {
+    background-color: #000000;
+    color: #fde722;
+}
+
 .color-blue {
     color: #3498db;
 }

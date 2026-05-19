@@ -19,14 +19,27 @@ export default function Task() {
   const displayTasks = () => {
     return tasks.map(task => {
       if (!task.zombie) {
-        return (
-          <li key={task.id}>
-            <b>{task.course_name} - {task.assignment_name}</b> | 
-            <span className='warning'>截止日期是 {task.due_at}</span> | 
-            <span className='warning-green'>可用日期是 {task.lock_at}</span>
-            <p>详细内容: {task.explanation}</p>
-          </li>
-        );
+        if (!task.complete) {
+          return (
+            <li key={task.id}>
+              <b>{task.course_name} - {task.assignment_name}</b> | 
+              <span className='warning'>截止日期是 {task.due_at}</span> | 
+              <span className='warning-green'>可用日期是 {task.lock_at}</span>
+              <p>详细内容: {task.explanation}</p>
+            </li>
+          );
+        }
+        else {
+          return (
+            <li key={task.id}>
+              <b>{task.course_name} - {task.assignment_name}</b> | 
+              <span className='warning'>截止日期是 {task.due_at}</span> | 
+              <span className='warning-green'>可用日期是 {task.lock_at}</span> | 
+              <span className='warning-yellow'>已完成</span>
+              <p>详细内容: {task.explanation}</p>
+            </li>
+          );
+        }
       }
       else {
         return (<li key={task.id}>
