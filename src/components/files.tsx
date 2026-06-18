@@ -12,10 +12,9 @@ export function DownloadFile({ url, filename } : { url: string, filename: string
 
     return (
         <>
-            <a ref={linkRef} href={url} download={filename} style={{ display: 'none' }} />
-            <button onClick={handleDownload}>
-                Download {filename}
-            </button>
+            <a ref={linkRef} href={url} download={filename} onClick={handleDownload}>
+                <u>Download {filename}</u>
+            </a>
         </>
     );
 }

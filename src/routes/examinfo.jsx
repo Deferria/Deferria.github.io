@@ -24,7 +24,11 @@ export default function ExamInfo() {
                         <td>上院112</td>
                         <td>Lebesgue 测度论、积分论、微积分基本定理、Lp 空间理论</td>
                         <td><a href="https://github.com/Deferria/26-RealAnalysis">笔记链接</a></td>
-                        <td><div className="warning-green">待更新</div></td>
+                        <td>
+                            <DownloadFile filename="RA-25.pdf" url="2025期末-戎锋.pdf" />
+                            <br />
+                            <DownloadFile filename="RA-23.pdf" url="2023期末-戎锋.pdf" />
+                        </td>
                     </tr>
                     <tr>
                         <td>第二场</td>
@@ -47,25 +51,29 @@ export default function ExamInfo() {
                     <tr>
                         <td>第四场</td>
                         <td>泛函分析</td>
-                        <td><div className="warning-red">6-25, 10:30-12:30</div></td>
+                        <td><div className="warning-red">6-26, 10:30-12:30</div></td>
                         <td>中院211</td>
                         <td>“考纲中的所有内容” <br /> (lsr自己说的)</td>
                         <td><a href="https://github.com/Deferria/46-FunctionalAnalysis">笔记链接</a></td>
-                        <td><div className="warning-green">待更新</div></td>
+                        <td>
+                            <DownloadFile filename="FunctAnal-24.pdf" url="Func_final_exam_24-25_B.pdf" />
+                            <br />
+                            <DownloadFile filename="FunctAnal-22.pdf" url="Functional Analysis_Final_exam_2022.pdf" />
+                        </td>
                     </tr>
                     <tr>
                         <td>第五场</td>
                         <td>ODE</td>
-                        <td><div className="warning-red">6-25, 15:40-17:40</div></td>
+                        <td><div className="warning-red">6-26, 15:40-17:40</div></td>
                         <td>下院115</td>
                         <td>一阶线性 ODE、解的存在唯一性、线性方程组、高阶常系数线性 ODE、首次积分与一阶线性 PDE</td>
                         <td>
-                            <DownloadFile filename="ODE_checklist.pdf" url="/ODE_checklist.pdf" />
+                            <DownloadFile filename="ODE_checklist.pdf" url="ODE_checklist.pdf" />
                         </td>
                         <td>
                             <DownloadFile filename="ODE_past_exam.pdf" url="23-24春常微分方程期末试卷.pdf" />
                             <br />
-                            这是来自传承上的资料.
+                            <h6>这是来自传承上的资料. </h6>
                         </td>
                     </tr>
                     <tr>

@@ -12,7 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<Root />}>
-        <Route index element={<Home />} />
+        <Route index element={<></>} />
+        <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="task" element={<Task />} />
         <Route path="examinfo" element={<ExamInfo />} />

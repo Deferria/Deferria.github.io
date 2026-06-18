@@ -7,7 +7,7 @@ export default function Root() {
     <>
       <header>
         <nav>
-          <Link to="/">回到根节点</Link> | <Link to="/home">Home</Link> | <Link to="/task">Task</Link> | <Link to="/examinfo">Exam Info</Link> | <Link to="/about">About</Link> 
+          <Link to="/">回到根节点</Link> | <Link to="/home">Home</Link> | <Link to="/task">Task</Link> | <Link to="/examinfo">Info</Link> | <Link to="/about">About</Link> 
         </nav>
       </header>
       <div class="container">
